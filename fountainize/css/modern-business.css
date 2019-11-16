@@ -1,0 +1,106 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 56px;
+}
+
+.btn-primary {
+  background: #2d4592;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #3750a1;
+  border: 1px solid #2d4592;
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.description ul li {
+  list-style-type: none !important;
+  line-height: 50px;
+}
+
+i {
+  margin-right: 15px;
+}
+
+header {
+  min-height: 70vh;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15);
+  height: 100vh;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9ec6e5+0,4a97d6+86,3c6c96+100 */
+  background: #9ec6e5;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #9ec6e5 0%, #4a97d6 86%, #3c6c96 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #9ec6e5 0%, #4a97d6 86%, #3c6c96 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #9ec6e5 0%, #4a97d6 86%, #3c6c96 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9ec6e5', endColorstr='#3c6c96', GradientType=0);
+  /* IE6-9 */
+}
+
+.header {
+  height: 100%;
+  max-width: 1350px !important;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-90%);
+  transform: translateY(-90%);
+}
+
+.logo-text {
+  font-family: 'Pacifico', cursive;
+}
+
+nav img {
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+
+.header-btn {
+  font-size: 20px;
+  margin: 5px;
+  padding: 10px 15px 10px 15px;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+  transition: 0.2s;
+}
+
+.nav-btn {
+  margin-left: 15px;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+textarea {
+  resize: none;
+}
+
+hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
