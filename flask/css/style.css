@@ -112,6 +112,7 @@ ul.nav{
 
 /*banner area*/
 .banner{
+	background-color: black;
 	background: url(../img/banner.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -579,7 +580,7 @@ section.pricing {
   
   .pricing .card-title {
 	margin: 0.5rem 0;
-	font-size: 1.9rem;
+	font-size: 3rem;
 	letter-spacing: .1rem;
 	font-weight: bold;
   }
