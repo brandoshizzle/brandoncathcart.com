@@ -1,6 +1,0 @@
-# Redirects from what the browser requests to what we serve
-/index.html              /
-/fountainize/index.html  /fountainize
-/fountainize/privacypolicy.html  /fountainize/privacypolicy/
-/flask/index.html /flask
-/litebyte https://lite-byte.web.app

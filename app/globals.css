@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #EBE9E1;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-geist-mono), Arial, Helvetica, sans-serif;
+  /* cursor: crosshair; */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-barlow-condensed), Arial, Helvetica, sans-serif;
+}
+
+.btn-exciting:hover {
+  transform: scale(1.05) rotate(-2deg);
+}
+
+.btn-tall {
+  height: 3rem;
+}
+
+.card:hover{
+  z-index: 500;
+}
