@@ -156,13 +156,13 @@ const CrosswordsPage = () => {
 				<div className="flex flex-col gap-2">
 					<h1 className="text-3xl">MY PHILOSOPHY</h1>
 					<hr className="mt-2 mb-4" style={{ borderColor: 'black' }} />
-					<p>I've constructed a lot of crosswords and solved hundreds more. So what makes a fun crossword?</p>
+					<p>I&apos;ve constructed a lot of crosswords and solved hundreds more. So what makes a fun crossword?</p>
 					<ul className="list-disc pl-8">
 						<li>The theme should spark joy</li>
 						<li>The clues should be clever, but fair</li>
 						<li>Solving the puzzle should make you feel smart</li>
 					</ul>
-					<p>I've had crosswords published in <a className="link" href='https://thegatewayonline.ca/'>The Gateway</a>, The U of A's Engineering Art Show, and am featured regularly on <a className="link" href='https://crosshare.org/'>Crosshare</a>.</p>
+					<p>These are the key components that go into making a good, fun crossword. Plus, a little personality - there are lots of people making crosswords out there, so if I can make mine unique, all the better!</p>
 				</div>
 			</div >
 			<dialog id="contact_modal" className="modal">

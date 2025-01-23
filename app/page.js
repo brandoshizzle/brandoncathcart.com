@@ -78,7 +78,7 @@ function Home (props) {
           <div className="flex gap-8 items-center w-full my-8">
             <div className="flex-1">
               <h1 className="text-7xl font-bold pb-2">
-                <span className="hover:font-thin">Hi!</span> <span className="hover:font-thin">I'm</span> <span className="hover:font-thin">Brandon</span>.</h1>
+                <span className="hover:font-thin">Hi!</span> <span className="hover:font-thin">I&apos;m</span> <span className="hover:font-thin">Brandon</span>.</h1>
               <p className='text-xl font-light'>I do creative things in</p>
               <div className="flex gap-2 my-2">
                 <MapPinIcon />
@@ -195,7 +195,7 @@ function Home (props) {
               ))
             }
           </div>
-          <h1 className='text-5xl font-semibold mt-8'>Not sure? Here's what I do.</h1>
+          <h1 className='text-5xl font-semibold mt-8'>Not sure? Here&apos;s what I do.</h1>
           {/* FREELANCE */}
           <div className='flex flex-col gap-8 w-full mt-4 bg-white p-8 rounded-sm shadow-md'
             style={{ maxWidth: 650 }}>
