@@ -30,14 +30,14 @@ function Home (props) {
           }
         </Marquee>
       </div>
-      <div className='container mx-auto py-8' style={{ maxWidth: 950 }}>
+      <div className='container mx-auto px-4 md:px-0 py-8' style={{ maxWidth: 950 }}>
         <div className='flex flex-col gap-4 items-center w-full'>
-          <div className="flex gap-8 items-center w-full my-8">
+          <div className="flex flex-col md:flex-row gap-8 items-center w-full my-8 text-center md:text-left">
             <div className="flex-1">
-              <h1 className="text-7xl font-bold pb-2">
+              <h1 className="text-6xl md:text-7xl font-bold pb-2">
                 <span className="hover:font-thin">Hi!</span> <span className="hover:font-thin">I&apos;m</span> <span className="hover:font-thin">Brandon</span>.</h1>
               <p className='text-xl font-light'>I do creative things in</p>
-              <div className="flex gap-2 my-2">
+              <div className="flex gap-2 my-2 justify-center md:justify-start">
                 <MapPinIcon />
                 <p className='text-xl font-bold'>Edmonton, Canada.</p>
               </div>
@@ -152,15 +152,15 @@ function Home (props) {
               ))
             }
           </div>
-          <h1 className='text-5xl font-semibold mt-8'>Not sure? Here&apos;s what I do.</h1>
+          <h1 className='text-5xl font-semibold mt-8 text-center md:text-left'>Not sure? Here&apos;s what I do.</h1>
           {/* FREELANCE */}
-          <div className='flex flex-col gap-8 w-full mt-4 bg-white p-8 rounded-sm shadow-md'
+          <div className='flex flex-col gap-8 w-full mt-4 bg-white p-4 md:p-8 rounded-sm shadow-md mx-4 md:mx-0'
             style={{ maxWidth: 650 }}>
             <h2 className="text-3xl font-semibold">Freelance Work</h2>
             <Link href='/mastering' className="w-full">
-              <div className='flex gap-8 w-full'>
+              <div className='flex gap-2 md:gap-8 w-full'>
                 <div>
-                  <SpeakerIcon size={96} />
+                  <SpeakerIcon size={72} />
                 </div>
                 <div className="flex-1 flex flex-col gap-2">
                   <h3 className='text-3xl font-medium'>Audio Mastering</h3>
@@ -176,9 +176,9 @@ function Home (props) {
               </div>
             </Link>
             <Link href='/crosswords' className='w-full'>
-              <div className='flex gap-8 w-full'>
+              <div className='flex gap-2 md:gap-8 w-full'>
                 <div>
-                  <Grid2X2Icon size={96} />
+                  <Grid2X2Icon size={72} />
                 </div>
                 <div className="flex-1 flex flex-col gap-2">
                   <h3 className='text-3xl font-medium'>Crossword Construction</h3>
@@ -194,9 +194,9 @@ function Home (props) {
               </div>
             </Link>
             <Link href='/webdev' className='w-full'>
-              <div className='flex gap-8 w-full'>
+              <div className='flex gap-2 md:gap-8 w-full'>
                 <div>
-                  <CodeXmlIcon size={96} />
+                  <CodeXmlIcon size={72} />
                 </div>
                 <div className="flex-1 flex flex-col gap-2">
                   <h3 className='text-3xl font-medium'>Web Development</h3>
@@ -205,7 +205,7 @@ function Home (props) {
                   </p>
                   <div>
                     <div className='btn btn-neutral btn-exciting'>
-                      Check out my portfolio
+                      My projects
                       <MoveRightIcon size={24} />
                     </div>
                   </div>
@@ -214,11 +214,11 @@ function Home (props) {
             </Link>
           </div>
           {/* PROJECTS */}
-          <div className='flex flex-col gap-8 w-full mt-4 bg-white p-8 rounded-sm shadow-md'
+          <div className='flex flex-col gap-8 w-full mt-4 bg-white p-4 md:p-8 rounded-sm shadow-md'
             style={{ maxWidth: 650 }}>
             <h2 className="text-3xl font-semibold">Web Projects</h2>
             <Link href='/fountainize' className="w-full">
-              <div className='flex gap-8 w-full'>
+              <div className='flex gap-2 md:gap-8 w-full'>
                 <div>
                   <DramaIcon size={72} />
                 </div>
@@ -234,7 +234,7 @@ function Home (props) {
               </div>
             </Link>
             <Link href='/flask' className='w-full'>
-              <div className='flex gap-8 w-full'>
+              <div className='flex gap-2 md:gap-8 w-full'>
                 <div>
                   <FlaskConicalIcon size={72} />
                 </div>

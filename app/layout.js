@@ -26,7 +26,7 @@ const barlowCondensed = Barlow_Condensed({
 
 export const metadata = {
   title: "Brandon Cathcart",
-  description: "Brandon Cathcart is a web developer and audio engineer based in Edmonton, CA.",
+  description: "A creative guy based in Edmonton, Canada.",
 };
 
 export default function RootLayout ({ children }) {

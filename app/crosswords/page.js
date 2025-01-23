@@ -7,12 +7,14 @@ const CrosswordsPage = () => {
 
 	return (
 		<>
-			<FixedHead />
-			<FixedHead reversed top='50vh' />
-			<div className='container mx-auto py-8 flex flex-col gap-4' style={{ maxWidth: 800 }}>
+			<div className='hidden lg:block'>
+				<FixedHead />
+				<FixedHead reversed top='50vh' />
+			</div>
+			<div className='container mx-auto py-8 flex flex-col gap-4 px-4 md:px-0' style={{ maxWidth: 800 }}>
 				<h1 className="text-5xl pb-2">CROSSWORDS</h1>
 				<p className="pb-2">I love making crosswords. I&apos;ve had my crosswords published in <a className="link" href='https://thegatewayonline.ca/'>The Gateway</a>, The U of A&apos;s Engineering Art Show, and have been featured on <a className="link" href='https://crosshare.org/'>Crosshare</a>.</p>
-				<div className='grid grid-cols-2 gap-12'>
+				<div className='grid grid-cols-1 md:grid-cols-2 gap-12'>
 					<div>
 						<h1 className="text-3xl">SOLVE ME</h1>
 						<hr className="mt-2 mb-4" style={{ borderColor: 'black' }} />
