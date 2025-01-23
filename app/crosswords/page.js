@@ -162,7 +162,7 @@ const CrosswordsPage = () => {
 						<li>The clues should be clever, but fair</li>
 						<li>Solving the puzzle should make you feel smart</li>
 					</ul>
-					<p>These are the key components that go into making a good, fun crossword. Plus, a little personality - there are lots of people making crosswords out there, so if I can make mine unique, all the better!</p>
+					<p>These guiding principles make sure I have fun writing the crossword and solvers have fun doing it. And, of course, there&apos;s a dash of personality in there - there are lots of people making crosswords out there, so if I can make mine unique, all the better!</p>
 				</div>
 			</div >
 			<dialog id="contact_modal" className="modal">

@@ -1,5 +1,4 @@
 import { BookOpenTextIcon, BracketsIcon, ClapperboardIcon, FileTextIcon, MessageSquareWarningIcon, MousePointer, MoveRightIcon, MoveUpRightIcon, ParenthesesIcon, PickaxeIcon, SmileIcon, UserIcon, Users2Icon } from "lucide-react"
-import Link from "next/link"
 
 const syntaxData = [
 	{
@@ -50,7 +49,7 @@ const Fountainize = () => {
 	return (
 		// < !--Navigation -- >
 		<>
-			<header className="bg-blue-300 py-16">
+			<header className="bg-gradient-to-b from-blue-300 to-blue-500 py-16">
 				<div className="container mx-auto grid grid-cols-2">
 					<div className="flex flex-col justify-center">
 						<h1 className="text-8xl mb-2">
@@ -95,7 +94,7 @@ const Fountainize = () => {
 
 
 				<div className="grid grid-cols-1 md:grid-cols-2 gap-8 bg-white">
-					<div className="cols-1 text-7xl bg-blue-500 text-white flex items-center justify-center px-4  py-16">
+					<div className="cols-1 text-7xl bg-gradient-to-r from-blue-500 to-blue-700 text-white flex items-center justify-center px-4  py-16">
 						<h3>
 							Fountainize is the easiest way to write screenplays with Google Docs.
 						</h3>

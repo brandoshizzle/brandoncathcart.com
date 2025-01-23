@@ -11,23 +11,25 @@ function Home (props) {
 
   return (
     <div>
-      <Marquee gradient={false} speed={40} autoFill pauseOnHover>
-        {
-          [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11].map((i) => (
-            <div className="relative" key={i}
-              onMouseEnter={() => setHighlightedImg(i)}
-              onMouseLeave={() => setHighlightedImg(0)}>
-              <img src={`/images/home/${i}-comp.webp`} alt={`image ${i}`} style={{ height: '50vh', opacity: highlightedImg === 0 || highlightedImg === i ? 1 : 0.3 }} />
-              <div className="absolute bg-white rounded-xl p-2 pointer-events-none"
-                style={{ top: `${Math.floor(Math.random() * 80)}%`, left: `${Math.floor(Math.random() * 40)}%`, }}>
-                <h1 className="text-2xl">Brandon Cathcart</h1>
+      <div className="flex items-center justify-center"
+        style={{ height: '50vh' }}>
+        <Marquee gradient={false} speed={40} autoFill pauseOnHover>
+          {
+            [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11].map((i) => (
+              <div className="relative" key={i}
+                onMouseEnter={() => setHighlightedImg(i)}
+                onMouseLeave={() => setHighlightedImg(0)}>
+                <img src={`/images/home/${i}-comp.webp`} alt={`image ${i}`} style={{ height: '50vh', opacity: highlightedImg === 0 || highlightedImg === i ? 1 : 0.3 }} />
+                <div className="absolute bg-white rounded-xl p-2 pointer-events-none"
+                  style={{ top: `${Math.floor(Math.random() * 80)}%`, left: `${Math.floor(Math.random() * 40)}%`, }}>
+                  <h1 className="text-2xl">Brandon Cathcart</h1>
+                </div>
               </div>
-            </div>
-          ))
+            ))
 
-        }
-      </Marquee>
-
+          }
+        </Marquee>
+      </div>
       <div className='container mx-auto py-8' style={{ maxWidth: 950 }}>
         <div className='flex flex-col gap-4 items-center w-full'>
           <div className="flex gap-8 items-center w-full my-8">
@@ -224,7 +226,7 @@ function Home (props) {
                   <h3 className='text-3xl font-medium'>Fountainize</h3>
                   <p className='text-sm font-light'>A Google Docs add-on for writing screenplays with over 390k users.</p>
                   <div>
-                    <div className='btn btn-neutral btn-exciting'>View on Google Workspace
+                    <div className='btn btn-neutral btn-exciting'>Learn more
                       <MoveRightIcon size={24} />
                     </div>
                   </div>
