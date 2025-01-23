@@ -1,58 +1,13 @@
 'use client'
-import { Building2Icon, CodeXmlIcon, DramaIcon, FlaskConicalIcon, Grid2X2Icon, MapPinCheckIcon, MapPinIcon, MoveRightIcon, PinIcon, PyramidIcon, SpeakerIcon, SpeechIcon } from "lucide-react"
+import { CodeXmlIcon, DramaIcon, FlaskConicalIcon, Grid2X2Icon, MapPinIcon, MoveRightIcon, SpeakerIcon } from "lucide-react"
 import Link from "next/link"
 import Tilt from "react-parallax-tilt"
-import { useEffect, useRef, useState } from 'react';
-import gsap from 'gsap';
-import { useGSAP } from '@gsap/react';
-import SplitType from 'split-type'
+import { useState } from 'react';
 import Marquee from "react-fast-marquee";
 
 function Home (props) {
 
-  gsap.registerPlugin(useGSAP);
   const [highlightedImg, setHighlightedImg] = useState(0);
-
-  const welcomeText = useRef();
-  const ourText = new SplitType(welcomeText.current)
-  console.log(ourText)
-
-  useGSAP(
-    () => {
-      // get window width
-      const width = window.innerWidth;
-
-      var tl = gsap.timeline();
-      // tl.to("#headshot", { rotate: 40, duration: 0.1 });
-      // tl.fromTo("#headshot", { x: -width / 2 + 50 }, { x: -width / 2 + 210, duration: 2, ease: 'expo' });
-      // tl.to("#headshot", { x: 0, rotate: 0, duration: 1 });
-      // tl.from('#greeting', { scaleY: 0, duration: 1, ease: 'power4.out' });
-      // tl.from('#who1', { scaleY: 0, duration: 1, ease: 'power4.out', delay: 0.2 });
-      // tl.from('#who2', { scaleY: 0, duration: 1, ease: 'power4.out', delay: 0.2 });
-      tl.from('.card', {
-        rotation: 10, y: -200, scale: 0.3, opacity: 0, duration: 0.8, ease: 'expo', delay: 0.3, stagger: 0.3
-      });
-
-      gsap.fromTo(
-        ourText.chars,
-        {
-          y: 100,
-          opacity: 0
-        },
-        {
-          y: 0,
-          opacity: 1,
-          stagger: 0.05,
-          duration: 2,
-          ease: 'power4.out',
-        }
-      )
-      // gsap.to('.card', {
-      //   rotation: 5, duration: 1, ease: 'expo', delay: 1.5, stagger: 0.5
-      // });
-    },
-    // { scope: container }
-  ); // <-- scope is for selector text (optional)
 
   return (
     <div>
